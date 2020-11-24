@@ -1,0 +1,139 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+h1{
+  color: #66BFBF;
+  font-size: 50px;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-weight: bold;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  line-height: 2px;
+  padding-bottom: 10px;
+
+}
+h3{
+  color: #11999E;
+  font-family:'Montserrat', sans-serif;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted #85c29e 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family:'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+.top-container{
+  position: relative;
+    background-color: #E4F9F5;
+    height: 400px;
+    padding-top: 100px;
+  }
+.midlle-container{
+   font-weight: bold;
+  margin: 100px 0;
+  }
+.bottom-container{
+  padding:50px 0 20px;
+  background-color: #66BFBF;
+  text-decoration: none;
+}
+a.hover{
+  color: #EAF6F6;
+}
+  .profile{
+    border-radius: 10%;
+    padding-top: 200px;
+  }
+.profile-pic{
+  width: 15%;
+}
+
+.bottom-container{
+margin-bottom: 100px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+ text-align: left ;
+
+}
+
+.pro{
+  text-decoration: underline;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+
+}
+.computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies{
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: .85rem;
+  padding: 20px 0;
+}
+.btn {
+
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
